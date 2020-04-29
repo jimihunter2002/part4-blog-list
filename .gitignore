@@ -1,0 +1,8 @@
+node_modules
+.env
+*.rest
+*lock.json
+.vscode
+tests/palindrome.test.js
+tests/average.test.js
+utils/for_testing.js

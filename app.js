@@ -23,6 +23,7 @@ mongoose
   .then(() => logger.info('connected to MongoDB'))
   .catch(error => logger.error('error connecting to MongoDB', error.message));
 
+app.use(express.static('build'));
 app.use(cors());
 app.disable('x-powered-by');
 app.use(express.json());
